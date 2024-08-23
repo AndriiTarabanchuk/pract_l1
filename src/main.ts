@@ -65,4 +65,3 @@ logDetails(null); // Value: null, Type of value: object
 logDetails(""); // Value: , Type of value: string
 logDetails(1n); // Value: , Type of value: string
 logDetails(undefined); // Value: undefined, Type of value: undefined
-logDetails(Symbol("#@rt")); // Value: undefined, Type of value: undefined
