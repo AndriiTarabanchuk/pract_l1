@@ -10,12 +10,12 @@ function formatOrder(order: Order): string {
   }`;
 }
 // Example usage:
+console.log("----Task 1 Basic Types in TypeScript");
 const order1: Order = {
   orderId: 101,
   customerName: "John Doe",
   isDelivered: false,
 };
-console.log("----Task 1 Basic Types in TypeScript"); // Output: "Order 101: John Doe - Pending"
 console.log(formatOrder(order1)); // Output: "Order 101: John Doe - Pending"
 
 //Task 2 Object Typisation in TypeScript
@@ -64,7 +64,7 @@ logDetails({ as: 12 }); // Value: [object Object], Type of value: object
 logDetails([1, 2, 3]); // Value: 1,2,3, Type of value: object
 logDetails(1n); //Value: 1, Type of value: bigint
 logDetails(null); // Value: null, Type of value: object
-logDetails(undefined); // Value: undefined, Type of value: undefinedє
+logDetails(undefined); // Value: undefined, Type of value: undefined
 
 //Task 5 Using the unknown Type in TypeScript
 function safelyParseJson(jsonString: string): unknown {
