@@ -56,8 +56,6 @@ console.log(calculateTotal(numbersArray)); // Output: 100
 function logDetails(value: any): void {
   console.log(`Value: ${value}, Type of value: ${typeof value}`);
 }
-и;
-const id1: Symbol = Symbol("#@rt");
 // Example usage:
 logDetails("Hello, TypeScript!"); // Output: Value: Hello, TypeScript!, Type of value: string
 logDetails(42); //  Value: 42, Type of value: number
